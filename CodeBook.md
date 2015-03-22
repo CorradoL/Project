@@ -33,12 +33,18 @@ Raw Data transformation
 Tidy data set
 -------------------
   
-  ### Variables
+### Variables
   
   The tidy data set contains :
   
 * a __Subject__ variable that describe who (IDs: 1--30) perform the specific train (each single row);
 * an __Activity__ variable (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) that describe the specific kind of activity which are performed (by _Subject_);
 * all the other variables are measurement of the signal detected during the experiments (numeric value which means can be found in the general description provided above).
-  
+
+### Note
+For the variable in the final stage we add _.avarage_ extension to the name to clearity.
+
+
+Output
+-----------
 The data set is written to the file 'avaragedata_by_subject.txt'.
